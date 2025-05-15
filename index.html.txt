@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andi Moch Syabriansyah</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow p-4 flex justify-between items-center">
+    <div class="text-xl font-bold">Andi</div>
+    <ul class="flex gap-4">
+      <li><a href="#tentang" class="hover:text-blue-600">Tentang</a></li>
+      <li><a href="#portofolio" class="hover:text-blue-600">Portofolio</a></li>
+      <li><a href="#kontak" class="hover:text-blue-600">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-blue-100">
+    <h1 class="text-4xl font-bold mb-4">Halo, Saya Andi Moch Syabriansyah</h1>
+    <p class="text-lg mb-6">Mahasiswa Informatika | Pengembang Web | Siap Berkarya</p>
+    <a href="#portofolio" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Lihat Portofolio</a>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="max-w-4xl mx-auto py-12 px-4">
+    <h2 class="text-2xl font-bold mb-4">Tentang Saya</h2>
+    <p>Saya mahasiswa jurusan Informatika yang antusias terhadap pengembangan web dan desain antarmuka. Saya menyukai tantangan dalam membangun solusi digital.</p>
+  </section>
+
+  <!-- Keahlian -->
+  <section class="bg-white py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6">Keahlian</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-4 border rounded">Web Development</div>
+        <div class="p-4 border rounded">UI/UX Design</div>
+        <div class="p-4 border rounded">Hosting & Deployment</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portofolio -->
+  <section id="portofolio" class="max-w-4xl mx-auto py-12 px-4">
+    <h2 class="text-2xl font-bold mb-6">Portofolio</h2>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Website Toko Online – PHP & MySQL</li>
+      <li>Aplikasi Catatan – React.js</li>
+      <li>Landing Page – HTML & TailwindCSS</li>
+    </ul>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="bg-gray-200 py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6">Kontak</h2>
+      <p>Email: syabriansyah@email.com</p>
+      <p>WhatsApp: 08xxxxxxxxxx</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-white border-t mt-8">
+    <p>NIM: 2.11.5101 | Nama: Andi Moch Syabriansyah</p>
+  </footer>
+
+</body>
+</html>
